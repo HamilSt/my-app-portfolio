@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#ffdfeaf1"
+    android:nestedScrollingEnabled="false"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp" />
+
+    <Button
+        android:id="@+id/button_spotify_streamer"
+        android:text="@string/button_spotify_streamer"
+        android:contentDescription="@string/toast_spotify_streamer"
+        android:background="#F08C35"
+        android:width="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="runApp" />
+
+    <Button
+        android:id="@+id/button_football_scored_app"
+        android:text="@string/button_football_scored_app"
+        android:contentDescription="@string/toast_football_scored_app"
+        android:background="#F08C35"
+        android:width="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button_spotify_streamer"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="runApp" />
+
+    <Button
+        android:id="@+id/button_library_app"
+        android:text="@string/button_library_app"
+        android:contentDescription="@string/toast_library_app"
+        android:background="#F08C35"
+        android:width="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button_football_scored_app"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="runApp" />
+
+    <Button
+        android:id="@+id/button_build_it_bigger"
+        android:text="@string/button_build_it_bigger"
+        android:contentDescription="@string/toast_build_it_bigger"
+        android:background="#F08C35"
+        android:width="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_library_app"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="runApp" />
+
+    <Button
+        android:id="@+id/button_xyz_reader"
+        android:text="@string/button_xyz_reader"
+        android:contentDescription="@string/toast_xyz_reader"
+        android:background="#F08C35"
+        android:width="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_build_it_bigger"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="runApp" />
+
+    <Button
+        android:id="@+id/button_capstone"
+        android:text="@string/button_capstone"
+        android:contentDescription="@string/toast_capstone"
+        android:background="#ffcd0e3e"
+        android:textColor="#ffffffff"
+        android:width="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_xyz_reader"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="runApp" />
+</RelativeLayout>
